@@ -27,6 +27,9 @@
 
     .colon{
         width: calc(100% / 5);
+        img{
+            aspect-ratio: 1/1;
+        }
     }
     .card{
         background-color: rgba(46, 58, 70, 1);
