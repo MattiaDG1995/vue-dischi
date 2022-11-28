@@ -1,14 +1,15 @@
 <template>
-    <div class="colon p-3 text-center">
+    <div class="colon p-2 text-center">
         
-            <div class="card  p-3 fw-bold">
-            <img :src="card.poster" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title text-white">{{card.title}}</h5>
-                <p class="card-text text-dark">{{card.author}}</p>
-                <p class="card-text text-dark">{{card.year}}</p>
-            </div>
-            </div>
+        <div class="card  p-2 fw-bold">
+        <img :src="card.poster" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title text-white">{{card.title}}</h5>
+            <p class="card-text text-dark">{{card.author}}</p>
+            <p class="card-text text-dark">{{card.year}}</p>
+        </div>
+        </div>
+       
 
         
     </div>
@@ -34,8 +35,6 @@
     .card{
         background-color: rgba(46, 58, 70, 1);
         height: 380px;
-
-        
-        
+   
     }
 </style>
